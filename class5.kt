@@ -167,20 +167,29 @@ fun main(){
     /**
      * Comparison operators
      */
-    var a =10
-    var b = 20
-    //1. > (greater than)
-    println(a>b)
-    //2. < (less than)
-    println(a<b)
-    //3. >= (greater than or equal)
-    println(a>=b)
-    //4. <= (less than or equal)
-    println(a<=b)
-    //5. == (equal)
-    println(a==b)
-    //6. != (not equal)
-    println(a!=b)
+//    var a =10
+//    var b = 20
+//    //1. > (greater than)
+//    println(a>b)
+//    //2. < (less than)
+//    println(a<b)
+//    //3. >= (greater than or equal)
+//    println(a>=b)
+//    //4. <= (less than or equal)
+//    println(a<=b)
+//    //5. == (equal)
+//    println(a==b)
+//    //6. != (not equal)
+//    println(a!=b)
+    /**
+     * Logical operators
+     */
 
+    var a = 10
+    var b = 20
+    //1. || logical or
+    println(a>b || a<b)
+    //2. && logical and
+    println(a>b && a<b)
 
 }
